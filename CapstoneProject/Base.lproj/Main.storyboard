@@ -440,7 +440,6 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Documents" id="HUw-KA-yU0">
-                                        <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="9kZ-fg-O6U"/>
                                         <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="M1T-V6-Js9">
                                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
                                             <connections>
@@ -585,7 +584,6 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Cloud" id="dAn-TB-rv3">
-                                        <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="YvE-sI-SB6"/>
                                         <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="Gem-aZ-9hd">
                                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
                                             <connections>
@@ -624,7 +622,7 @@
         <image name="writing-1.gif" width="460" height="345"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ll0-Qf-7Sj"/>
+        <segue reference="ubw-wC-RkL"/>
         <segue reference="BMg-z5-wkQ"/>
     </inferredMetricsTieBreakers>
 </document>
