@@ -18,6 +18,8 @@
 		3F808A071DB695230023ABFD /* shareTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F808A061DB695230023ABFD /* shareTabController.m */; };
 		3F808A0F1DB699DD0023ABFD /* documentTabControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F808A0E1DB699DD0023ABFD /* documentTabControllerViewController.m */; };
 		3F808A141DB6D7090023ABFD /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F808A131DB6D7090023ABFD /* ProfileViewController.m */; };
+		3F96733E1DC0EC0100E49E0A /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F96733D1DC0EC0100E49E0A /* DropboxSDK.framework */; };
+		3F9673401DC0FCEF00E49E0A /* dropbox-vflgpEUVr.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F96733F1DC0FCEF00E49E0A /* dropbox-vflgpEUVr.gif */; };
 		3FC3F0A81DB4464200796CF7 /* Circled User Male Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0A71DB4464200796CF7 /* Circled User Male Filled-50.png */; };
 		3FC3F0AD1DB447FC00796CF7 /* Clouds-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */; };
 		3FC3F0AE1DB447FC00796CF7 /* Download From Cloud-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */; };
@@ -34,7 +36,6 @@
 		3FE334A81DB535CC00E4C425 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE334A71DB535CC00E4C425 /* FBSDKCoreKit.framework */; };
 		3FE334AA1DB5391B00E4C425 /* Bolts in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE334A91DB5391B00E4C425 /* Bolts */; };
 		3FE334AC1DB5393000E4C425 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE334AB1DB5393000E4C425 /* Bolts.framework */; };
-		3FE334AE1DB53A1A00E4C425 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE334AD1DB53A1A00E4C425 /* FBSDKLoginKit.framework */; };
 		3FE632E31DB315E300686293 /* eureka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE632E01DB315E300686293 /* eureka.jpg */; };
 		3FE632E41DB315E300686293 /* projectwrite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE632E11DB315E300686293 /* projectwrite.png */; };
 		3FE632E51DB315E300686293 /* writing-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FE632E21DB315E300686293 /* writing-1.gif */; };
@@ -45,6 +46,8 @@
 		3FFEEEC01DB9551000C30C41 /* google_signin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEEEBF1DB9551000C30C41 /* google_signin.png */; };
 		3FFEEEC21DB9569D00C30C41 /* fbsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEEEC11DB9569D00C30C41 /* fbsmall.png */; };
 		3FFEEEC41DB956C200C30C41 /* btn_google_dark_normal_ios@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEEEC31DB956C200C30C41 /* btn_google_dark_normal_ios@3x.png */; };
+		3FFEEEC81DB95D2800C30C41 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFEEEC71DB95D2800C30C41 /* FBSDKLoginKit.framework */; };
+		3FFEEECB1DB95F2A00C30C41 /* StorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEEECA1DB95F2A00C30C41 /* StorageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,8 @@
 		3F808A0E1DB699DD0023ABFD /* documentTabControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = documentTabControllerViewController.m; sourceTree = "<group>"; };
 		3F808A121DB6D7090023ABFD /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		3F808A131DB6D7090023ABFD /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		3F96733D1DC0EC0100E49E0A /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		3F96733F1DC0FCEF00E49E0A /* dropbox-vflgpEUVr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "dropbox-vflgpEUVr.gif"; sourceTree = "<group>"; };
 		3FC3F0A71DB4464200796CF7 /* Circled User Male Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Circled User Male Filled-50.png"; path = "../../../Downloads/Circled User Male Filled-50.png"; sourceTree = "<group>"; };
 		3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clouds-50.png"; path = "../../../Downloads/Clouds-50.png"; sourceTree = "<group>"; };
 		3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Download From Cloud-50.png"; path = "../../../Downloads/Download From Cloud-50.png"; sourceTree = "<group>"; };
@@ -103,7 +108,6 @@
 		3FE334A71DB535CC00E4C425 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		3FE334A91DB5391B00E4C425 /* Bolts */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = Bolts; sourceTree = "<group>"; };
 		3FE334AB1DB5393000E4C425 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		3FE334AD1DB53A1A00E4C425 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		3FE632E01DB315E300686293 /* eureka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eureka.jpg; path = ../../../Downloads/eureka.jpg; sourceTree = "<group>"; };
 		3FE632E11DB315E300686293 /* projectwrite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = projectwrite.png; path = ../../../Downloads/projectwrite.png; sourceTree = "<group>"; };
 		3FE632E21DB315E300686293 /* writing-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "writing-1.gif"; path = "../../../Downloads/writing-1.gif"; sourceTree = "<group>"; };
@@ -114,6 +118,9 @@
 		3FFEEEBF1DB9551000C30C41 /* google_signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google_signin.png; path = ../../../Desktop/capstoneproject/images/google_signin.png; sourceTree = "<group>"; };
 		3FFEEEC11DB9569D00C30C41 /* fbsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fbsmall.png; path = ../../../Desktop/capstoneproject/images/fbsmall.png; sourceTree = "<group>"; };
 		3FFEEEC31DB956C200C30C41 /* btn_google_dark_normal_ios@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_google_dark_normal_ios@3x.png"; path = "../../../Desktop/google_signin_buttons/ios/3x/btn_google_dark_normal_ios@3x.png"; sourceTree = "<group>"; };
+		3FFEEEC71DB95D2800C30C41 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3FFEEEC91DB95F2A00C30C41 /* StorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageViewController.h; sourceTree = "<group>"; };
+		3FFEEECA1DB95F2A00C30C41 /* StorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +128,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE334AE1DB53A1A00E4C425 /* FBSDKLoginKit.framework in Frameworks */,
+				3F96733E1DC0EC0100E49E0A /* DropboxSDK.framework in Frameworks */,
 				3FE334AC1DB5393000E4C425 /* Bolts.framework in Frameworks */,
+				3FFEEEC81DB95D2800C30C41 /* FBSDKLoginKit.framework in Frameworks */,
 				3FE334A81DB535CC00E4C425 /* FBSDKCoreKit.framework in Frameworks */,
 				3FE334AA1DB5391B00E4C425 /* Bolts in Frameworks */,
 			);
@@ -175,6 +183,8 @@
 				3F29AED21DB014AA00FD906F /* ViewController.m */,
 				3F808A061DB695230023ABFD /* shareTabController.m */,
 				3F808A081DB695400023ABFD /* shareTabController.h */,
+				3FFEEEC91DB95F2A00C30C41 /* StorageViewController.h */,
+				3FFEEECA1DB95F2A00C30C41 /* StorageViewController.m */,
 				3F29AED41DB014AA00FD906F /* Main.storyboard */,
 				3F808A121DB6D7090023ABFD /* ProfileViewController.h */,
 				3F808A131DB6D7090023ABFD /* ProfileViewController.m */,
@@ -195,6 +205,7 @@
 				3FFEEEBB1DB94AF600C30C41 /* facebook-sign-in-button-png-26.png */,
 				3FC3F0C51DB4521600796CF7 /* Screenshot-40.png */,
 				3FC3F0C31DB4515E00796CF7 /* Add Folder-40.png */,
+				3F96733F1DC0FCEF00E49E0A /* dropbox-vflgpEUVr.gif */,
 				3FC3F0BD1DB44E0A00796CF7 /* Folder-96.png */,
 				3FC3F0BE1DB44E0A00796CF7 /* Open Folder-96.png */,
 				3FC3F0BF1DB44E0A00796CF7 /* Pictures Folder-96.png */,
@@ -240,7 +251,8 @@
 		3FE3349C1DB5312800E4C425 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3FE334AD1DB53A1A00E4C425 /* FBSDKLoginKit.framework */,
+				3F96733D1DC0EC0100E49E0A /* DropboxSDK.framework */,
+				3FFEEEC71DB95D2800C30C41 /* FBSDKLoginKit.framework */,
 				3FE334AB1DB5393000E4C425 /* Bolts.framework */,
 				3FE334A91DB5391B00E4C425 /* Bolts */,
 				3FE334A71DB535CC00E4C425 /* FBSDKCoreKit.framework */,
@@ -357,6 +369,7 @@
 			files = (
 				3FFEEEBC1DB94AF600C30C41 /* facebook-sign-in-button-png-26.png in Resources */,
 				3FC3F0AF1DB447FC00796CF7 /* Settings Filled-50.png in Resources */,
+				3F9673401DC0FCEF00E49E0A /* dropbox-vflgpEUVr.gif in Resources */,
 				3FC3F0A81DB4464200796CF7 /* Circled User Male Filled-50.png in Resources */,
 				3F29AEDB1DB014AA00FD906F /* LaunchScreen.storyboard in Resources */,
 				3FC3F0AE1DB447FC00796CF7 /* Download From Cloud-50.png in Resources */,
@@ -407,6 +420,7 @@
 			files = (
 				3F29AED31DB014AA00FD906F /* ViewController.m in Sources */,
 				3F808A0F1DB699DD0023ABFD /* documentTabControllerViewController.m in Sources */,
+				3FFEEECB1DB95F2A00C30C41 /* StorageViewController.m in Sources */,
 				3F29AED01DB014AA00FD906F /* AppDelegate.m in Sources */,
 				3F808A071DB695230023ABFD /* shareTabController.m in Sources */,
 				3F808A141DB6D7090023ABFD /* ProfileViewController.m in Sources */,

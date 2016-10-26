@@ -1,31 +1,47 @@
 //
-//  documentTabControllerViewController.m
+//  StorageViewController.m
 //  CapstoneProject
 //
-//  Created by Student on 2016-10-18.
+//  Created by Vikas Joshi on 2016-10-20.
 //  Copyright © 2016 Student. All rights reserved.
 //
 
-#import "documentTabControllerViewController.h"
+#import "StorageViewController.h"
+#import <DropboxSDK/DropboxSDK.h>
 
-@interface documentTabControllerViewController ()
-
+@interface StorageViewController ()
 @end
 
-@implementation documentTabControllerViewController
+@implementation StorageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    DBSession* dbSession = [[DBSession alloc]
+                            initWithAppKey:@"ilv0svdi94bj6t7"
+                            appSecret:@"rqmjsigftwgsqx2"
+                            root:@"dropbox"];
+    [DBSession setSharedSession:dbSession];
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)dropBoxFiles:(id)sender {
+
+- (IBAction)dropBoxLink:(id)sender {
+    if (![[DBSession sharedSession] isLinked]) {
+        [[DBSession sharedSession] linkFromController:self];
+    }
     
 }
+
+
+
+
+
 
 /*
 #pragma mark - Navigation

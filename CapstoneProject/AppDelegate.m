@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <DropboxSDK/DropboxSDK.h>
 #import "ViewController.h"
 
 @interface AppDelegate ()
@@ -53,7 +54,17 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Add any custom logic here.
     return handled;
 } 
-
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    if ([[DBSession sharedSession] handleOpenURL:url]) {
+        if ([[DBSession sharedSession] isLinked]) {
+            NSLog(@"App linked successfully!");
+            // At this point you can start making API calls
+        }
+        return YES;
+    }
+    // Add whatever other url handling code your app requires here
+    return NO;
+}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

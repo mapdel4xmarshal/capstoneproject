@@ -1,14 +1,14 @@
 //
-//  documentTabControllerViewController.h
+//  StorageViewController.h
 //  CapstoneProject
 //
-//  Created by Student on 2016-10-18.
+//  Created by Vikas Joshi on 2016-10-20.
 //  Copyright © 2016 Student. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <DropboxSDK/DropboxSDK.h>
 
-@interface documentTabControllerViewController : UIViewController
+@interface StorageViewController : UIViewController
 
 @end
