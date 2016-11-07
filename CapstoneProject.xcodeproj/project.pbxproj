@@ -44,7 +44,6 @@
 		3FE632EB1DB3524400686293 /* user-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE632EA1DB3524400686293 /* user-photo.png */; };
 		3FFEEEBC1DB94AF600C30C41 /* facebook-sign-in-button-png-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEEEBB1DB94AF600C30C41 /* facebook-sign-in-button-png-26.png */; };
 		3FFEEEBE1DB94BC900C30C41 /* fblogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEEEBD1DB94BC900C30C41 /* fblogin.png */; };
-		3FFEEEC01DB9551000C30C41 /* google_signin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEEEBF1DB9551000C30C41 /* google_signin.png */; };
 		3FFEEEC21DB9569D00C30C41 /* fbsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEEEC11DB9569D00C30C41 /* fbsmall.png */; };
 		3FFEEEC41DB956C200C30C41 /* btn_google_dark_normal_ios@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEEEC31DB956C200C30C41 /* btn_google_dark_normal_ios@3x.png */; };
 		3FFEEEC81DB95D2800C30C41 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFEEEC71DB95D2800C30C41 /* FBSDKLoginKit.framework */; };
@@ -118,7 +117,6 @@
 		3FE632EA1DB3524400686293 /* user-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-photo.png"; path = "../../../Downloads/user-photo.png"; sourceTree = "<group>"; };
 		3FFEEEBB1DB94AF600C30C41 /* facebook-sign-in-button-png-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-sign-in-button-png-26.png"; path = "Assets.xcassets/facebook-sign-in-button-png-26.png"; sourceTree = "<group>"; };
 		3FFEEEBD1DB94BC900C30C41 /* fblogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fblogin.png; path = ../../../Desktop/fblogin.png; sourceTree = "<group>"; };
-		3FFEEEBF1DB9551000C30C41 /* google_signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google_signin.png; path = ../../../Desktop/capstoneproject/images/google_signin.png; sourceTree = "<group>"; };
 		3FFEEEC11DB9569D00C30C41 /* fbsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fbsmall.png; path = ../../../Desktop/capstoneproject/images/fbsmall.png; sourceTree = "<group>"; };
 		3FFEEEC31DB956C200C30C41 /* btn_google_dark_normal_ios@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_google_dark_normal_ios@3x.png"; path = "../../../Desktop/google_signin_buttons/ios/3x/btn_google_dark_normal_ios@3x.png"; sourceTree = "<group>"; };
 		3FFEEEC71DB95D2800C30C41 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -220,7 +218,6 @@
 				3FFEEEBD1DB94BC900C30C41 /* fblogin.png */,
 				3FFEEEC11DB9569D00C30C41 /* fbsmall.png */,
 				3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */,
-				3FFEEEBF1DB9551000C30C41 /* google_signin.png */,
 				3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */,
 				3FC3F0AB1DB447FC00796CF7 /* Settings Filled-50.png */,
 				3FC3F0AC1DB447FC00796CF7 /* Upload to Cloud-50.png */,
@@ -382,7 +379,6 @@
 				3FFEEEC41DB956C200C30C41 /* btn_google_dark_normal_ios@3x.png in Resources */,
 				3FC3F0C21DB44E0A00796CF7 /* Pictures Folder-96.png in Resources */,
 				3FC3F0C71DB4521600796CF7 /* Screenshot-40.png in Resources */,
-				3FFEEEC01DB9551000C30C41 /* google_signin.png in Resources */,
 				3F29AED81DB014AA00FD906F /* Assets.xcassets in Resources */,
 				3FC3F0CA1DB4529E00796CF7 /* Share-35.png in Resources */,
 				3FC3F0C41DB4515E00796CF7 /* Add Folder-40.png in Resources */,
