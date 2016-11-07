@@ -467,7 +467,7 @@
                         <viewControllerLayoutGuide type="top" id="qCB-TE-teU"/>
                         <viewControllerLayoutGuide type="bottom" id="dZ1-YX-jwc"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="i0c-GI-oAt">
+                    <view key="view" contentMode="scaleToFill" id="i0c-GI-oAt" customClass="UICollectionView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -485,6 +485,18 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Rv-iG-qTn">
+                                <rect key="frame" x="0.0" y="72" width="375" height="546"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Occ-6R-0sC">
+                                        <rect key="frame" x="23" y="21" width="73" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Add Folder-48.png"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96020346879959106" green="0.97255319356918335" blue="0.98462790250778198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -571,6 +583,7 @@
     </scenes>
     <resources>
         <image name="Add Folder-40.png" width="40" height="40"/>
+        <image name="Add Folder-48.png" width="48" height="48"/>
         <image name="Circled User Male Filled-50.png" width="50" height="50"/>
         <image name="Clouds-50.png" width="50" height="50"/>
         <image name="Screenshot-40.png" width="40" height="40"/>
