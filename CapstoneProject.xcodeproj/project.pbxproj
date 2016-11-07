@@ -15,6 +15,7 @@
 		3F29AEDB1DB014AA00FD906F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F29AED91DB014AA00FD906F /* LaunchScreen.storyboard */; };
 		3F29AEE61DB014AA00FD906F /* CapstoneProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F29AEE51DB014AA00FD906F /* CapstoneProjectTests.m */; };
 		3F29AEF11DB014AB00FD906F /* CapstoneProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F29AEF01DB014AB00FD906F /* CapstoneProjectUITests.m */; };
+		3F38C23F1DD0C5920063FA21 /* NewDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F38C23E1DD0C5920063FA21 /* NewDocumentViewController.m */; };
 		3F808A071DB695230023ABFD /* shareTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F808A061DB695230023ABFD /* shareTabController.m */; };
 		3F808A0F1DB699DD0023ABFD /* documentTabControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F808A0E1DB699DD0023ABFD /* documentTabControllerViewController.m */; };
 		3F808A141DB6D7090023ABFD /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F808A131DB6D7090023ABFD /* ProfileViewController.m */; };
@@ -84,6 +85,8 @@
 		3F29AEEC1DB014AA00FD906F /* CapstoneProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F29AEF01DB014AB00FD906F /* CapstoneProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapstoneProjectUITests.m; sourceTree = "<group>"; };
 		3F29AEF21DB014AB00FD906F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F38C23D1DD0C5920063FA21 /* NewDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDocumentViewController.h; sourceTree = "<group>"; };
+		3F38C23E1DD0C5920063FA21 /* NewDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDocumentViewController.m; sourceTree = "<group>"; };
 		3F808A061DB695230023ABFD /* shareTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shareTabController.m; sourceTree = "<group>"; };
 		3F808A081DB695400023ABFD /* shareTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shareTabController.h; sourceTree = "<group>"; };
 		3F808A0D1DB699DD0023ABFD /* documentTabControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = documentTabControllerViewController.h; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				3FFEEEC91DB95F2A00C30C41 /* StorageViewController.h */,
 				3FFEEECA1DB95F2A00C30C41 /* StorageViewController.m */,
 				3F29AED41DB014AA00FD906F /* Main.storyboard */,
+				3F38C23D1DD0C5920063FA21 /* NewDocumentViewController.h */,
+				3F38C23E1DD0C5920063FA21 /* NewDocumentViewController.m */,
 				3F808A121DB6D7090023ABFD /* ProfileViewController.h */,
 				3F808A131DB6D7090023ABFD /* ProfileViewController.m */,
 				3F808A0D1DB699DD0023ABFD /* documentTabControllerViewController.h */,
@@ -424,6 +429,7 @@
 				3F29AED01DB014AA00FD906F /* AppDelegate.m in Sources */,
 				3F808A071DB695230023ABFD /* shareTabController.m in Sources */,
 				3F808A141DB6D7090023ABFD /* ProfileViewController.m in Sources */,
+				3F38C23F1DD0C5920063FA21 /* NewDocumentViewController.m in Sources */,
 				3F29AECD1DB014AA00FD906F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
