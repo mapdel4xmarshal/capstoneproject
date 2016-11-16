@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <DropboxSDK/DropboxSDK.h>
 
-@interface documentTabControllerViewController : UIViewController
+@interface documentTabControllerViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+
+@property (strong, nonatomic) IBOutlet UICollectionView *folderCollecions;
 
 @end

@@ -26,5 +26,18 @@
 
 
 
+@property (weak, nonatomic) NSString *fullName;
+@property (weak, nonatomic) NSString *facebookID;
+@property (weak, nonatomic) NSString *emailID;
+@property (weak, nonatomic) NSString *profilePicURL;
+@property (weak, nonatomic) NSString *userID;
+
+
+-(void) getUserDetails : (void (^)(void))callbackFunction;
+
+-(void) saveDetailsTocookie : (NSArray *)values;
+
+-(NSString *) doConnect : (NSString *) postData;
+
 @end
 

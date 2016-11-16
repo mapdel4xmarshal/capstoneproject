@@ -11,7 +11,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Picter</string>
+	<string>Pickor</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -37,10 +37,15 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
+<<<<<<< HEAD
 				<string>db-ilv0svdi94bj6t7</string>
 			</array>
 			<key>url se</key>
 			<string></string>
+=======
+				<string>com.googleusercontent.apps.404394802931-9gcgrbug9kvlu0lqvfc2pjckliink1m4</string>
+			</array>
+>>>>>>> master
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
@@ -58,6 +63,24 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>http://localhost/piktor/handlers.php</key>
+			<string></string>
+			<key>localhost</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string></string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
